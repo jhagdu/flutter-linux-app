@@ -1,5 +1,5 @@
 //Importing Required Modules
-import 'package:firebase_app/pages/global_variables.dart';
+import 'package:LinuxCmnd/pages/global_variables.dart';
 import 'package:flutter/material.dart';
 
 //Side Drawer for Hostory Class

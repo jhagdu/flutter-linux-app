@@ -1,6 +1,6 @@
 //Importing Modules
-import 'package:firebase_app/pages/home.dart';
-import 'package:firebase_app/pages/login.dart';
+import 'package:LinuxCmnd/pages/home.dart';
+import 'package:LinuxCmnd/pages/login.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 

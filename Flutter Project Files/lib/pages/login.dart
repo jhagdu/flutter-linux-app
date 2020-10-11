@@ -1,7 +1,7 @@
 //Importing Required Modules
 import 'dart:convert';
 
-import 'package:firebase_app/pages/global_variables.dart';
+import 'package:LinuxCmnd/pages/global_variables.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
@@ -120,7 +120,7 @@ class _LinuxAppLoginState extends State<LinuxAppLogin> {
                                     child: TextField(
                                       autofocus: false,
                                       controller: controllerOfIP,
-                                      inputFormatters: [BlacklistingTextInputFormatter(RegExp("[ ]")),],
+                                      inputFormatters: [FilteringTextInputFormatter.deny(RegExp("[ ]")),],
                                       decoration: InputDecoration(
                                         labelText: "Host IP",
                                         enabledBorder: OutlineInputBorder(

@@ -1,4 +1,4 @@
-name: firebase_app
+name: LinuxCmnd
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -27,11 +27,11 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^0.1.3
+  cupertino_icons: ^1.0.0
   cloud_firestore: ^0.14.0+2
   firebase_core: ^0.5.0
   shared_preferences: ^0.5.8
-  toast:  ^0.1.5
+  toast: ^0.1.5
 
 dev_dependencies:
   flutter_test:
